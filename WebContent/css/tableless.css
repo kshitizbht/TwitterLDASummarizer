@@ -1,0 +1,155 @@
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	background-image:url('../images/gradient2.jpg');
+	background-repeat:repeat-x;
+}
+#mainContainer{
+	margin: 5px auto;
+	text-align: left;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	width:650px;
+	background:white;
+}
+
+#header{
+	font-size:22px;
+	margin:10px;
+}
+.button{
+	width:auto;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	background-color:white;	
+}
+.button:hover{
+	width:auto;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	background-color:#ccd9ff;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	text-decoration:underline;
+	color:blue;
+} 
+
+#content{
+	margin:5px;
+}
+#cleardiv{
+	clear:both;
+}
+
+#graph li
+{
+   position:absolute;	
+   list-style:none;
+   background:lightblue;
+   width:40px;
+   text-align:center;
+   border:1px solid black;
+   visibility: hidden;
+   background-image:url('../images/gradient2.jpg');
+   background-repeat:repeat-y;
+}
+.message
+{
+	color:red;
+}
+
+
+.metricstable{
+	font-size:14px;
+	border:1px solid #aaaaaa;
+	text-align:left;
+}
+.center{
+	text-align:center;
+}
+
+#news{
+	 color:blue;
+}
+#sports{
+	 color:red;
+}
+#finance{
+	 color:green;
+}
+#entertainment{
+	 color:indigo;
+}
+#tech{
+	 color:brown;
+}
+#personal{
+	 color:black;
+}
+
+.original{
+	font-style:italic;
+	float:right;
+	margin-left:5px;
+	
+}
+.classified{
+	font-style:italic;
+	float:right;
+	margin-left:5px;
+}
+.misHeader{
+	float:right;
+	margin-left:5px;
+
+}
+.tweetHeader{
+	font-size:14px;
+	margin:5px;
+}
+.label{
+	padding:5px;
+	border:1px solid #aaaaaa;
+	font-size:12px;
+}
+#labels{
+	margin-top:10px;
+	}
+#showallbutton{
+	margin-top:10px;
+}
+
+#sampleMisclassified{
+	border:1px solid #aaaaaa;
+	margin-top:5px;
+	padding:3px;
+	}
+.classes{
+	float:left;
+	border:2px solid #aaaaaa;
+	margin:5px;
+	padding:3px;
+}
+.tweet{
+	text-align:left;
+	padding:5px;
+}
+.focus {
+	font-size:14px;
+	color:blue;
+	text-align:center;
+}
+#hrRule{
+	border:1px solid #aaaaaa;
+}
+#footer{
+	float:right;
+	font-size:8px;
+	margin-top:10px;
+	padding:2px;
+	color:red;
+}

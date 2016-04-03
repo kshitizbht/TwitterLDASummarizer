@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="./css/tableless.css"/>
+	<!--<script type="text/JavaScript" src="./javascript/main.js></script>-->
+	<title>Twitter Topics Finder</title>
+</head>
+<body>
+<div id="mainContainer">
+	<div id="header">
+	Twitter Topic Generator Web Application
+	</div>
+	<div id="content">
+	<form name="readFiles" action="/TwitterSummarizer/rest/webapp/readfiles" method="post">
+		<span id="folder">FolderPath ::<input type="text" name="path" size="50" value="C:/Users/kshitiz/Documents/workspace/TwitterSummarizer/WebContent/tweets/"> </span>
+		<br/>
+		<span id="alpha">Lda alpha ::<input type="text" name="alpha" value="2.0"> </span>
+		<br/>
+		<span id="beta">Lda beta ::<input type="text" name="beta" value="0.01"> </span>
+		<br/>
+		<input type="submit" class="button" value = "Submit"/>
+		<input type="reset" class="button" value = "Reset"/>
+	</form>
+	</div>
+	<br/>
+	<div id="demo">
+		<h3>Cluster and Summarize tweets from files</h3>
+		<div id="multipleStories">
+		<form name="summarize" action="/TwitterSummarizer/rest/webapp/summarize" method="post">
+		<span id="folder">FolderPath ::<input type="text" name="path" size="25" value="C:/Users/kshitiz/Documents/workspace/TwitterSummarizer/WebContent/TweetsSummary/10Stories/"> </span>
+		<br/>
+		<span id="hiddentopics">Number of hidden topics ::<input type="text" name="numTopics" value="10"> </span>
+		<br/>
+		<input type="submit" class="button" value = "Submit"/>
+		</form>
+		</div>
+	</div>
+	<div id="footer">
+		~~Twitter Summarizer CS 750 Term Project by kb ~~
+	</div>
+</div>
+
+
+
+</body>
+</html>
